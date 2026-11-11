@@ -1,0 +1,18 @@
+# ── SFC 监管文本检索基准：运行时依赖 ──
+# 安装：pip install -r requirements.txt
+# CPU-only PyTorch（约 200 MB）：
+#   pip install --index-url https://download.pytorch.org/whl/cpu torch
+torch>=2.1
+sentence-transformers>=2.7
+rank_bm25>=0.2.2
+numpy>=1.24
+matplotlib>=3.7
+
+# ── 系统依赖（非 pip）──
+# poppler-utils   提供 pdftotext（语料抽取）与 pdftoppm（排版质检）
+# chromium        提供 --headless --print-to-pdf（白皮书编译）
+# fonts-noto-cjk  中文字形（图表与 PDF）
+
+# ── 模型权重 ──
+# 置于 ./models/ 或以环境变量 MODEL_DIR 指向：
+#   BAAI/bge-small-en-v1.5   BAAI/bge-m3   BAAI/bge-reranker-v2-m3

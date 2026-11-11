@@ -1,0 +1,1504 @@
+{
+  "meta": {
+    "n_questions": 100,
+    "corpus": "chunks_v2.jsonl",
+    "n_chunks": 498,
+    "language": "en",
+    "multi_gold": 21,
+    "hard": 55
+  },
+  "questions": [
+    {
+      "qid": "Q001",
+      "category": "C1",
+      "category_name": "客户资产隔离与托管",
+      "question": "What general standard governs a licensed person's handling of client assets?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "GP8"
+        },
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "11.1"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q002",
+      "category": "C1",
+      "category_name": "客户资产隔离与托管",
+      "question": "Must a licensed person keep client money in accounts separate from its own funds?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "3.7"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q003",
+      "category": "C1",
+      "category_name": "客户资产隔离与托管",
+      "question": "What are a licensed person's obligations when collecting margin from clients?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "3.6"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q004",
+      "category": "C1",
+      "category_name": "客户资产隔离与托管",
+      "question": "Who is responsible for selecting and appointing a custodian for fund assets?",
+      "gold": [
+        {
+          "doc_id": "SFC-FMCC",
+          "clause_id": "4.1.2"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q005",
+      "category": "C1",
+      "category_name": "客户资产隔离与托管",
+      "question": "What due diligence must a Fund Manager carry out before appointing a custodian?",
+      "gold": [
+        {
+          "doc_id": "SFC-FMCC",
+          "clause_id": "4.2.1"
+        },
+        {
+          "doc_id": "SFC-FMCC",
+          "clause_id": "4.2.2"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q006",
+      "category": "C1",
+      "category_name": "客户资产隔离与托管",
+      "question": "Is a formal written custody agreement required for fund assets?",
+      "gold": [
+        {
+          "doc_id": "SFC-FMCC",
+          "clause_id": "4.3.1"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q007",
+      "category": "C1",
+      "category_name": "客户资产隔离与托管",
+      "question": "What ongoing monitoring of custody arrangements is expected after appointment?",
+      "gold": [
+        {
+          "doc_id": "SFC-FMCC",
+          "clause_id": "4.3.3"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q008",
+      "category": "C1",
+      "category_name": "客户资产隔离与托管",
+      "question": "What applies where a Fund Manager itself retains custody of fund assets rather than appointing a third party?",
+      "gold": [
+        {
+          "doc_id": "SFC-FMCC",
+          "clause_id": "4.4.2"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q009",
+      "category": "C1",
+      "category_name": "客户资产隔离与托管",
+      "question": "What segregation must custody arrangements achieve for fund assets?",
+      "gold": [
+        {
+          "doc_id": "SFC-FMCC",
+          "clause_id": "4.4.1"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q010",
+      "category": "C1",
+      "category_name": "客户资产隔离与托管",
+      "question": "How frequently should reconciliation of fund assets and positions be carried out?",
+      "gold": [
+        {
+          "doc_id": "SFC-FMCC",
+          "clause_id": "5.6"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q011",
+      "category": "C2",
+      "category_name": "利益冲突与员工交易",
+      "question": "What is the overarching principle on conflicts of interest for licensed persons?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "GP6"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q012",
+      "category": "C2",
+      "category_name": "利益冲突与员工交易",
+      "question": "When a conflict cannot be avoided, what must a licensed person do to ensure fair treatment?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "10.1"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q013",
+      "category": "C2",
+      "category_name": "利益冲突与员工交易",
+      "question": "What independence requirements apply when a firm has a material interest in a transaction?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "10.2"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q014",
+      "category": "C2",
+      "category_name": "利益冲突与员工交易",
+      "question": "Must a firm have a written policy on whether employees may deal for their own account?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "12.2"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q015",
+      "category": "C2",
+      "category_name": "利益冲突与员工交易",
+      "question": "How must client orders be prioritised against the firm's own orders?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "9.1"
+        },
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "9.2"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q016",
+      "category": "C2",
+      "category_name": "利益冲突与员工交易",
+      "question": "What internal rules must a Fund Manager have on personal account dealing by relevant persons?",
+      "gold": [
+        {
+          "doc_id": "SFC-FMCC",
+          "clause_id": "2.1.1"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q017",
+      "category": "C2",
+      "category_name": "利益冲突与员工交易",
+      "question": "May a Fund Manager permit relevant persons to deal ahead of client or fund orders?",
+      "gold": [
+        {
+          "doc_id": "SFC-FMCC",
+          "clause_id": "2.1.3"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q018",
+      "category": "C2",
+      "category_name": "利益冲突与员工交易",
+      "question": "What restrictions apply to cross trades between house accounts and client accounts?",
+      "gold": [
+        {
+          "doc_id": "SFC-FMCC",
+          "clause_id": "3.9.2"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q019",
+      "category": "C2",
+      "category_name": "利益冲突与员工交易",
+      "question": "What must a Fund Manager observe when dealing for a house account?",
+      "gold": [
+        {
+          "doc_id": "SFC-FMCC",
+          "clause_id": "3.10"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q020",
+      "category": "C2",
+      "category_name": "利益冲突与员工交易",
+      "question": "What conflict controls apply to analysts' trading and personal financial interests?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "16.4"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q021",
+      "category": "C3",
+      "category_name": "客户身份穿透与 KYC",
+      "question": "What must a licensed person establish about a client before providing services?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "5.1"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q022",
+      "category": "C3",
+      "category_name": "客户身份穿透与 KYC",
+      "question": "What must a firm do to identify the person ultimately responsible for originating an order?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "5.4"
+        }
+      ],
+      "difficulty": "hard",
+      "note": "穿透式监管核心条款：originator of instructions 与 ultimate beneficiary"
+    },
+    {
+      "qid": "Q023",
+      "category": "C3",
+      "category_name": "客户身份穿透与 KYC",
+      "question": "If an intermediary places orders on behalf of underlying clients, what identity information must be obtainable?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "5.4"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q024",
+      "category": "C3",
+      "category_name": "客户身份穿透与 KYC",
+      "question": "What is required when characterising whether a client has knowledge of derivatives?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "5.1A"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q025",
+      "category": "C3",
+      "category_name": "客户身份穿透与 KYC",
+      "question": "What steps apply where a client is assessed as not having derivative knowledge?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "5.1A"
+        },
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "5.3"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q026",
+      "category": "C3",
+      "category_name": "客户身份穿透与 KYC",
+      "question": "What information about a client's financial situation and investment objectives must be sought?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "GP4"
+        },
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "5.1"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q027",
+      "category": "C3",
+      "category_name": "客户身份穿透与 KYC",
+      "question": "What records support the firm's assessment of a client's investment experience?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "5.1"
+        },
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "5.1A"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q028",
+      "category": "C3",
+      "category_name": "客户身份穿透与 KYC",
+      "question": "What obligations arise if the firm cannot satisfy itself as to the beneficial identity behind an account?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "5.4"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q029",
+      "category": "C3",
+      "category_name": "客户身份穿透与 KYC",
+      "question": "What must a Fund Manager do to verify that a fund's investment strategy matches its stated risk profile?",
+      "gold": [
+        {
+          "doc_id": "SFC-FMCC",
+          "clause_id": "3.11.1"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q030",
+      "category": "C3",
+      "category_name": "客户身份穿透与 KYC",
+      "question": "How should a licensed person treat instructions received from a third party holding a power of attorney?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "5.4"
+        },
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "7.1"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q031",
+      "category": "C4",
+      "category_name": "专业投资者认定与豁免",
+      "question": "What is the general approach to dealing with Professional Investors under the Code?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "15.1"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q032",
+      "category": "C4",
+      "category_name": "专业投资者认定与豁免",
+      "question": "What terminology distinguishes the categories of Professional Investor?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "15.2"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q033",
+      "category": "C4",
+      "category_name": "专业投资者认定与豁免",
+      "question": "Which Code provisions may be dispensed with for Corporate Professional Investors?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "15.4"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q034",
+      "category": "C4",
+      "category_name": "专业投资者认定与豁免",
+      "question": "What assessment must be completed before treating a corporate client as a Corporate Professional Investor?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "15.4"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q035",
+      "category": "C4",
+      "category_name": "专业投资者认定与豁免",
+      "question": "What exempt provisions apply to Individual Professional Investors?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "15.5"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q036",
+      "category": "C4",
+      "category_name": "专业投资者认定与豁免",
+      "question": "Is a client agreement still required when dealing with an Institutional Professional Investor?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "15.1"
+        },
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "6.1"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q037",
+      "category": "C4",
+      "category_name": "专业投资者认定与豁免",
+      "question": "What must be disclosed to a client before it consents to be treated as a Professional Investor?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "15.2"
+        }
+      ],
+      "difficulty": "hard",
+      "note": "15.2(a)(ii) 规定须说明被视为专业投资者的后果"
+    },
+    {
+      "qid": "Q038",
+      "category": "C4",
+      "category_name": "专业投资者认定与豁免",
+      "question": "Can a Professional Investor withdraw its consent to Professional Investor treatment?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "15.2"
+        }
+      ],
+      "difficulty": "hard",
+      "note": "撤回权载于 15.2(a)(ii)(iii)，非 15.4 豁免清单"
+    },
+    {
+      "qid": "Q039",
+      "category": "C4",
+      "category_name": "专业投资者认定与豁免",
+      "question": "Do suitability obligations continue to apply to Corporate Professional Investors?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "15.4"
+        },
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "5.2"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q040",
+      "category": "C4",
+      "category_name": "专业投资者认定与豁免",
+      "question": "How often must the Professional Investor assessment be reviewed?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "15.2"
+        }
+      ],
+      "difficulty": "hard",
+      "note": "年度确认程序载于 15.2(b)"
+    },
+    {
+      "qid": "Q041",
+      "category": "C5",
+      "category_name": "适当性与复杂产品",
+      "question": "What is the suitability obligation when recommending a product to a client?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "5.2"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q042",
+      "category": "C5",
+      "category_name": "适当性与复杂产品",
+      "question": "What additional requirements apply to the sale of derivative products?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "5.3"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q043",
+      "category": "C5",
+      "category_name": "适当性与复杂产品",
+      "question": "What obligations apply specifically to complex products?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "5.5"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q044",
+      "category": "C5",
+      "category_name": "适当性与复杂产品",
+      "question": "What must a firm do when a transaction is executed without any solicitation or recommendation?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "5.5"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q045",
+      "category": "C5",
+      "category_name": "适当性与复杂产品",
+      "question": "What is required regarding advice given with due skill, care and diligence?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "3.4"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q046",
+      "category": "C5",
+      "category_name": "适当性与复杂产品",
+      "question": "What duty is owed to act in the best interests of clients when distributing products?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "3.10"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q047",
+      "category": "C5",
+      "category_name": "适当性与复杂产品",
+      "question": "Which minimum terms must a client agreement contain?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "6.2"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q048",
+      "category": "C5",
+      "category_name": "适当性与复杂产品",
+      "question": "May a client agreement include terms inconsistent with the Code?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "6.5"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q049",
+      "category": "C5",
+      "category_name": "适当性与复杂产品",
+      "question": "What risk disclosure statements should a client agreement incorporate?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "Sch1"
+        },
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "6.2"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q050",
+      "category": "C5",
+      "category_name": "适当性与复杂产品",
+      "question": "What applies where a firm provides services on a limited or execution-only basis?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "6.4"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q051",
+      "category": "C6",
+      "category_name": "利益与收费披露",
+      "question": "What monetary and non-monetary benefits must be disclosed to clients?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "8.3"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q052",
+      "category": "C6",
+      "category_name": "利益与收费披露",
+      "question": "What transaction related information must be disclosed to clients?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "8.3A"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q053",
+      "category": "C6",
+      "category_name": "利益与收费披露",
+      "question": "What must be disclosed where the firm receives a benefit for a discretionary account transaction?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "7.2"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q054",
+      "category": "C6",
+      "category_name": "利益与收费披露",
+      "question": "Are charges to clients required to be fair and reasonable?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "2.2"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q055",
+      "category": "C6",
+      "category_name": "利益与收费披露",
+      "question": "What governs the use of gifts by distributors promoting a specific investment product?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "3.11"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q056",
+      "category": "C6",
+      "category_name": "利益与收费披露",
+      "question": "What information about the firm must be provided to clients in general?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "8.1"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q057",
+      "category": "C6",
+      "category_name": "利益与收费披露",
+      "question": "How promptly must transaction confirmations be sent to clients?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "8.2"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q058",
+      "category": "C6",
+      "category_name": "利益与收费披露",
+      "question": "What disclosure obligations does a Fund Manager have regarding charges, fees and mark-ups?",
+      "gold": [
+        {
+          "doc_id": "SFC-FMCC",
+          "clause_id": "8.2"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q059",
+      "category": "C6",
+      "category_name": "利益与收费披露",
+      "question": "What must a Fund Manager disclose to a fund about benefits received?",
+      "gold": [
+        {
+          "doc_id": "SFC-FMCC",
+          "clause_id": "8.1"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q060",
+      "category": "C6",
+      "category_name": "利益与收费披露",
+      "question": "What standards govern a Fund Manager's advertisements and marketing materials?",
+      "gold": [
+        {
+          "doc_id": "SFC-FMCC",
+          "clause_id": "7.2"
+        },
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "2.3"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q061",
+      "category": "C7",
+      "category_name": "保荐人尽职调查",
+      "question": "What are the key requirements applicable to a sponsor of a listing application?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "17.2"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q062",
+      "category": "C7",
+      "category_name": "保荐人尽职调查",
+      "question": "What work must a sponsor complete before submitting a listing application?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "17.4"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q063",
+      "category": "C7",
+      "category_name": "保荐人尽职调查",
+      "question": "What is the scope of a sponsor's due diligence obligation?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "17.6"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q064",
+      "category": "C7",
+      "category_name": "保荐人尽职调查",
+      "question": "What due diligence must a sponsor perform on expert reports relied upon in a prospectus?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "17.7"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q065",
+      "category": "C7",
+      "category_name": "保荐人尽职调查",
+      "question": "What records must a sponsor keep to evidence its due diligence?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "17.10"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q066",
+      "category": "C7",
+      "category_name": "保荐人尽职调查",
+      "question": "What resources, systems and controls must a sponsor maintain?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "17.11"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q067",
+      "category": "C7",
+      "category_name": "保荐人尽职调查",
+      "question": "Is an annual assessment of a sponsor's systems and controls required?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "17.12"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q068",
+      "category": "C7",
+      "category_name": "保荐人尽职调查",
+      "question": "What applies to information a sponsor provides to analysts in a new listing?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "17.14"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q069",
+      "category": "C7",
+      "category_name": "保荐人尽职调查",
+      "question": "What obligations govern a sponsor's communications with the regulators?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "17.9"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q070",
+      "category": "C7",
+      "category_name": "保荐人尽职调查",
+      "question": "What is expected in the overall management of a public offer by a sponsor?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "17.13"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q071",
+      "category": "C8",
+      "category_name": "电子交易、算法交易与另类流动性池",
+      "question": "Who is responsible for orders transmitted through an internet trading or DMA system?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "18.3"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q072",
+      "category": "C8",
+      "category_name": "电子交易、算法交易与另类流动性池",
+      "question": "What management and supervision is required for electronic trading systems?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "18.4"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q073",
+      "category": "C8",
+      "category_name": "电子交易、算法交易与另类流动性池",
+      "question": "What system adequacy requirements apply to electronic trading?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "18.5"
+        },
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "Sch7-1.2"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q074",
+      "category": "C8",
+      "category_name": "电子交易、算法交易与另类流动性池",
+      "question": "What minimum client requirements apply before granting DMA access?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "18.8"
+        },
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "Sch7-2.2"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q075",
+      "category": "C8",
+      "category_name": "电子交易、算法交易与另类流动性池",
+      "question": "What qualification requirements apply to algorithmic trading systems?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "18.9"
+        },
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "Sch7-3.1"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q076",
+      "category": "C8",
+      "category_name": "电子交易、算法交易与另类流动性池",
+      "question": "What testing obligations apply to an algorithmic trading system before deployment?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "18.10"
+        },
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "Sch7-3.2"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q077",
+      "category": "C8",
+      "category_name": "电子交易、算法交易与另类流动性池",
+      "question": "What risk management controls are required for algorithmic trading?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "18.11"
+        },
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "Sch7-3.3"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q078",
+      "category": "C8",
+      "category_name": "电子交易、算法交易与另类流动性池",
+      "question": "Who may be given access to an alternative liquidity pool?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "19.4"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q079",
+      "category": "C8",
+      "category_name": "电子交易、算法交易与另类流动性池",
+      "question": "How must order priority be determined within an alternative liquidity pool?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "19.6"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q080",
+      "category": "C8",
+      "category_name": "电子交易、算法交易与另类流动性池",
+      "question": "Must users be able to opt out of having their orders routed to an ALP?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "19.8"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q081",
+      "category": "C9",
+      "category_name": "基金估值、侧袋与运营",
+      "question": "What must a Fund Manager ensure regarding valuation policies and procedures for fund assets?",
+      "gold": [
+        {
+          "doc_id": "SFC-FMCC",
+          "clause_id": "5.3.1"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q082",
+      "category": "C9",
+      "category_name": "基金估值、侧袋与运营",
+      "question": "What must the valuation policies describe in addition to the methodologies used?",
+      "gold": [
+        {
+          "doc_id": "SFC-FMCC",
+          "clause_id": "5.3.2"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q083",
+      "category": "C9",
+      "category_name": "基金估值、侧袋与运营",
+      "question": "How often should valuation policies and procedures be reviewed?",
+      "gold": [
+        {
+          "doc_id": "SFC-FMCC",
+          "clause_id": "5.3.3"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q084",
+      "category": "C9",
+      "category_name": "基金估值、侧袋与运营",
+      "question": "What applies where a third party is appointed to perform valuation?",
+      "gold": [
+        {
+          "doc_id": "SFC-FMCC",
+          "clause_id": "5.3.4"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q085",
+      "category": "C9",
+      "category_name": "基金估值、侧袋与运营",
+      "question": "What must be done before a side pocket is introduced in a fund?",
+      "gold": [
+        {
+          "doc_id": "SFC-FMCC",
+          "clause_id": "5.4.1"
+        }
+      ],
+      "difficulty": "hard",
+      "note": "对冲基金运营高频痛点：side pocket 事前条件"
+    },
+    {
+      "qid": "Q086",
+      "category": "C9",
+      "category_name": "基金估值、侧袋与运营",
+      "question": "What obligations arise once a Fund Manager decides to side pocket fund assets?",
+      "gold": [
+        {
+          "doc_id": "SFC-FMCC",
+          "clause_id": "5.4.3"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q087",
+      "category": "C9",
+      "category_name": "基金估值、侧袋与运营",
+      "question": "What must a Fund Manager ensure about the calculation of net asset value?",
+      "gold": [
+        {
+          "doc_id": "SFC-FMCC",
+          "clause_id": "5.5.1"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q088",
+      "category": "C9",
+      "category_name": "基金估值、侧袋与运营",
+      "question": "Must an independent auditor be appointed for a fund?",
+      "gold": [
+        {
+          "doc_id": "SFC-FMCC",
+          "clause_id": "5.2.1"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q089",
+      "category": "C9",
+      "category_name": "基金估值、侧袋与运营",
+      "question": "What applies where the Fund Manager is responsible for the overall operation of a fund?",
+      "gold": [
+        {
+          "doc_id": "SFC-FMCC",
+          "clause_id": "5.2.2"
+        },
+        {
+          "doc_id": "SFC-FMCC",
+          "clause_id": "6.2"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q090",
+      "category": "C9",
+      "category_name": "基金估值、侧袋与运营",
+      "question": "How should accounts and records of a Fund Manager be kept?",
+      "gold": [
+        {
+          "doc_id": "SFC-FMCC",
+          "clause_id": "5.1"
+        }
+      ],
+      "difficulty": "normal",
+      "note": ""
+    },
+    {
+      "qid": "Q091",
+      "category": "C10",
+      "category_name": "跨条款交叉与穿透式监管",
+      "question": "How do the obligations on client asset safeguarding interact with the requirement to keep separate accounts?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "GP8"
+        },
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "11.1"
+        },
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "3.7"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q092",
+      "category": "C10",
+      "category_name": "跨条款交叉与穿透式监管",
+      "question": "A licensed corporation extends financial exposure to a group affiliate — what governs this?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "20.1"
+        }
+      ],
+      "difficulty": "hard",
+      "note": "冷门条款：集团关联方财务敞口"
+    },
+    {
+      "qid": "Q093",
+      "category": "C10",
+      "category_name": "跨条款交叉与穿透式监管",
+      "question": "What applies when a licensed person solicits or recommends its own group's products?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "20.2"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q094",
+      "category": "C10",
+      "category_name": "跨条款交叉与穿透式监管",
+      "question": "Which comparable OTC derivative jurisdictions are recognised for the purposes of paragraph 20.3?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "20.5"
+        }
+      ],
+      "difficulty": "hard",
+      "note": "最冷门条款之一"
+    },
+    {
+      "qid": "Q095",
+      "category": "C10",
+      "category_name": "跨条款交叉与穿透式监管",
+      "question": "Where a Fund Manager is part of a group with shared functions, what organisational requirements apply?",
+      "gold": [
+        {
+          "doc_id": "SFC-FMCC",
+          "clause_id": "1.3"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q096",
+      "category": "C10",
+      "category_name": "跨条款交叉与穿透式监管",
+      "question": "How does the duty of senior management responsibility connect to supervision of staff?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "GP9"
+        },
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "14.1"
+        },
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "4.2"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q097",
+      "category": "C10",
+      "category_name": "跨条款交叉与穿透式监管",
+      "question": "What must be notified to the Commission and in what circumstances?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "12.5"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q098",
+      "category": "C10",
+      "category_name": "跨条款交叉与穿透式监管",
+      "question": "What obligations apply to a licensed person acting as an expert witness?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "12.7"
+        }
+      ],
+      "difficulty": "hard",
+      "note": "极冷门条款"
+    },
+    {
+      "qid": "Q099",
+      "category": "C10",
+      "category_name": "跨条款交叉与穿透式监管",
+      "question": "What are a firm's obligations under the Financial Dispute Resolution Scheme?",
+      "gold": [
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "12A"
+        },
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "12.6"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    },
+    {
+      "qid": "Q100",
+      "category": "C10",
+      "category_name": "跨条款交叉与穿透式监管",
+      "question": "What must a Fund Manager do on withdrawing from business, and how does this compare with a licensed person's duty?",
+      "gold": [
+        {
+          "doc_id": "SFC-FMCC",
+          "clause_id": "1.11"
+        },
+        {
+          "doc_id": "SFC-COC",
+          "clause_id": "9.4"
+        }
+      ],
+      "difficulty": "hard",
+      "note": ""
+    }
+  ]
+}

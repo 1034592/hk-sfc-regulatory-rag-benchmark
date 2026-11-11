@@ -1,0 +1,14 @@
+{
+  "definition": "四个基础配置（BM25 / bge-small / bge-small+BM25 / bge-m3）的 top-5 条款中均无任一 gold 条款",
+  "n_total": 100,
+  "n_failed": 0,
+  "fail_rate_pct": 0.0,
+  "by_category": {},
+  "unique_save": {
+    "E_bm25": 1,
+    "C_dense_small": 0,
+    "A_dense_m3": 2,
+    "D_hybrid": 0
+  },
+  "cases": []
+}

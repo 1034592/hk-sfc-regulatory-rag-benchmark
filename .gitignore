@@ -1,0 +1,21 @@
+# 模型权重（约 4.4 GB，按 README 自行下载或以 MODEL_DIR 指向）
+models/
+
+# ── 受版权保护的法规原文，不在本仓库重新分发 ──
+# 两部证监会法规的 PDF 载明「© Securities and Futures Commission — All rights
+# reserved. No part of this publication may be reproduced, stored...」。
+# 本仓库只提供取得脚本与切块程序，运行 ./run_eval.sh 即可在本地重建语料。
+corpus/*.pdf
+data/chunks_v2.jsonl
+
+# 评测中间产物（排名矩阵等，由 run_eval.sh 重新生成）
+results/_parts/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# 本机临时文件
+.DS_Store
+*.swp
